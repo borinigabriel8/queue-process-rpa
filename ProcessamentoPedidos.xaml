@@ -93,7 +93,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1673,766" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1679,838.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPedidos" />
     </Sequence.Variables>
@@ -129,7 +129,7 @@
                 <InArgument x:TypeArguments="x:String" x:Key="RG">[CurrentRow("RG").ToString]</InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="Veiculo">[CurrentRow("Veiculo").ToString]</InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="Placa">[CurrentRow("Placa").ToString]</InArgument>
-                <InArgument x:TypeArguments="x:String" x:Key="Renavan">[CurrentRow("Renavan").ToString]</InArgument>
+                <InArgument x:TypeArguments="x:String" x:Key="Renavam">[CurrentRow("Renavam").ToString]</InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="Status">[CurrentRow("Status").ToString]</InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="Justificativa">[CurrentRow("Justificativa").ToString]</InArgument>
               </ui:AddQueueItem.ItemInformation>
